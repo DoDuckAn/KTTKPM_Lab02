@@ -1,6 +1,24 @@
 {
+  "name": "kttkpm-lab02",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc",
+    "typecheck": "tsc --noEmit",
+    "factory": "ts-node src/Factory/index.ts",
+    "abstract-factory": "ts-node src/AbstractFactory/index.ts",
+    "decorator": "ts-node src/Decorator/index.ts",
+    "state": "ts-node src/State/index.ts",
+    "observer": "ts-node src/Observer/index.ts",
+    "patterns": "ts-node src/patterns.ts"
+  },
   "dependencies": {
     "express": "^5.2.1",
     "mongodb": "^7.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
