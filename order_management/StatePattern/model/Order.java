@@ -1,7 +1,7 @@
-package order_management.StatePattern.model;
+package KTTKPM_Lab02.order_management.StatePattern.model;
 
-import order_management.StatePattern.state.CreatedState;
-import order_management.StatePattern.state.OrderState;
+import KTTKPM_Lab02.order_management.StatePattern.state.CreatedState;
+import KTTKPM_Lab02.order_management.StatePattern.state.OrderState;
 
 public class Order {
     private String orderId;

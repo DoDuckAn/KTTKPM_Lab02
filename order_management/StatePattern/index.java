@@ -1,7 +1,7 @@
-package order_management.StatePattern;
+package KTTKPM_Lab02.order_management.StatePattern;
 
-import order_management.StatePattern.model.Order;
-import order_management.StatePattern.model.User;
+import KTTKPM_Lab02.order_management.StatePattern.model.Order;
+import KTTKPM_Lab02.order_management.StatePattern.model.User;
 
 public class index {
     public static void main(String[] args) {

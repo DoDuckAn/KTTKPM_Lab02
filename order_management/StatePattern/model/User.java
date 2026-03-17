@@ -1,4 +1,4 @@
-package order_management.StatePattern.model;
+package KTTKPM_Lab02.order_management.StatePattern.model;
 
 public class User {
     private String userId;

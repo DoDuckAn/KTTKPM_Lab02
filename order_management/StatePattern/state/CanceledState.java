@@ -1,6 +1,6 @@
-package order_management.StatePattern.state;
+package KTTKPM_Lab02.order_management.StatePattern.state;
 
-import order_management.StatePattern.model.Order;
+import KTTKPM_Lab02.order_management.StatePattern.model.Order;
 
 public class CanceledState implements OrderState {
     @Override
