@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.3.8">
+  <diagram name="Microservice Architecture" id="0">
+    <mxGraphModel dx="1426" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-9" edge="1" parent="1" source="YqUVbgDIqf9WAYi_CKJv-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="YqUVbgDIqf9WAYi_CKJv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-2" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="user" vertex="1">
+          <mxGeometry height="60" width="30" x="195" y="155" as="geometry" />
+        </mxCell>
+        <object placeholders="1" id="YqUVbgDIqf9WAYi_CKJv-4">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="210" width="240" x="90" y="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="client" vertex="1">
+          <mxGeometry height="30" width="60" x="180" y="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" id="YqUVbgDIqf9WAYi_CKJv-6">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="210" width="240" x="410" y="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="presentation layer" vertex="1">
+          <mxGeometry height="30" width="60" x="500" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-15" edge="1" parent="1" source="YqUVbgDIqf9WAYi_CKJv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YqUVbgDIqf9WAYi_CKJv-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-16" edge="1" parent="1" source="YqUVbgDIqf9WAYi_CKJv-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="YqUVbgDIqf9WAYi_CKJv-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-8" parent="1" style="html=1;whiteSpace=wrap;" value="ObserverFrame" vertex="1">
+          <mxGeometry height="50" width="125" x="475" y="160" as="geometry" />
+        </mxCell>
+        <object placeholders="1" id="YqUVbgDIqf9WAYi_CKJv-10">
+          <mxCell parent="1" style="rounded=1;fontSize=11;whiteSpace=wrap;html=1;dashed=1;arcSize=20;fillColor=none;strokeColor=#666666;fontColor=#333333;labelBackgroundColor=none;align=left;verticalAlign=bottom;labelBorderColor=none;spacingTop=0;spacing=10;dashPattern=8 4;metaEdit=1;rotatable=0;perimeter=rectanglePerimeter;noLabel=0;labelPadding=0;allowArrows=0;connectable=0;expand=0;recursiveResize=0;editable=1;pointerEvents=0;absoluteArcSize=1;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="210" width="240" x="750" y="80" as="geometry" />
+          </mxCell>
+        </object>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="application layer" vertex="1">
+          <mxGeometry height="30" width="60" x="840" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-13" parent="1" style="html=1;whiteSpace=wrap;" value="task module" vertex="1">
+          <mxGeometry height="50" width="110" x="815" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="YqUVbgDIqf9WAYi_CKJv-14" parent="1" style="html=1;whiteSpace=wrap;" value="stock module" vertex="1">
+          <mxGeometry height="50" width="110" x="815" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
